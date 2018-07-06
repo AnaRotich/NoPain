@@ -34,7 +34,7 @@ public class Profile extends AppCompatActivity {
         username = findViewById(R.id.username);
         email = findViewById(R.id.email);
 
-/*
+
 
         SharedPreferences sharedPreferences = getSharedPreferences(config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         String username = sharedPreferences.getString(config.USERNAME_SHARED_PREF,"Not Available");
@@ -94,10 +94,10 @@ public class Profile extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.menuLogout) {
-            //calling logout method when the logout button is clicked
+
             logout();
         }
         return super.onOptionsItemSelected(item);
-*/
+
     }
 }
