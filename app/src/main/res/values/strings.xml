@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoPain</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="btn_link_signup" translatable="false">signUp link</string>
+    <string name="my_profile" translatable="false">My Profile</string>
+    <string name="my_workouts" translatable="false">My Workouts</string>
+    <string name="gym_instructors" translatable="false">Gym Instructors</string>
+    <string name="locations" translatable="false">Location</string>
+    <string name="welcome" translatable="false">Welcome</string>
+    <string name="my_workoutz" translatable="false">My Workouts</string>
+    <string name="workout_sessions" translatable="false">Workout sessions</string>
+    <string name="past_workout" translatable="false">Past workout</string>
+    <string name="add_workout" translatable="false">Add Workout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gym_locations">Gym Locations</string>
+</resources>

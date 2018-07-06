@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Users"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="261dp"
+        android:layout_height="51dp"
+        android:text="Welcome User"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="25dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+    <Button
+        android:id="@+id/MyProfile"
+        android:layout_width="142dp"
+        android:layout_height="109dp"
+        android:layout_alignEnd="@+id/GymLocations"
+        android:layout_alignTop="@+id/MyWorkouts"
+        android:background="@drawable/profile"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_alignRight="@+id/GymLocations" />
+
+    <Button
+        android:id="@+id/MyWorkouts"
+        android:layout_width="145dp"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/workouts"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp" />
+
+    <Button
+        android:id="@+id/GymInstructors"
+        android:layout_width="148dp"
+        android:layout_height="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/MyWorkouts"
+        android:layout_marginBottom="139dp"
+        android:background="@drawable/instructor"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_alignLeft="@+id/MyWorkouts" />
+
+    <Button
+        android:id="@+id/GymLocations"
+        android:layout_width="146dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/GymInstructors"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/location"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="282dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp" />
+
+    <TextView
+        android:id="@+id/myProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MyProfile"
+        android:layout_marginStart="45dp"
+        android:text="@string/my_profile"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/MyProfile"
+        android:layout_marginEnd="89dp"
+        android:text="@string/my_workouts"
+        android:layout_marginRight="89dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/GymInstructors"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="-139dp"
+        android:text="@string/gym_instructors"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="53dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/GymInstructors"
+        android:layout_marginTop="-139dp"
+        android:text="@string/locations"
+        android:layout_alignLeft="@+id/textView2" />
+</RelativeLayout>
